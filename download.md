@@ -3,6 +3,6 @@ layout: page
 title: Posts
 permalink: /posts/
 
-tagline: "Collection of blog posts"
+tagline: "A Collection of Individual Posts"
 ---
 
