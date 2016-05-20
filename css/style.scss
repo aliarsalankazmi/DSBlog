@@ -8,7 +8,7 @@
 // Our variables
 //$base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
 $base-font-family: 'Old Standard TT', serif;
-$base-font-size:   16px;
+$base-font-size:   8px;//16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -292,7 +292,7 @@ pre {
 
 .post {
   font-family: "Old Standard TT";//"Source Sans Pro";
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
   padding-top: 0;
 }
