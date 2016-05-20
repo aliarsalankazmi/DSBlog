@@ -1,12 +1,12 @@
 ---
 layout: page
-title : About
+title : 
 permalink: /about/
 ---
 
 <br>
-<center><p ><strong><span class="manual">Ali Arsalan Kazmi -- Data Scientist</span> Gravity</strong></p>
-        <p>Biography available <a href="https://aliarsalankazmi.github.io">here</a></p></center>
+<center><p ><strong><span class="manual">Ali Arsalan Kazmi - Data Scientist</span> Gravity</p>
+        <p>Biography available <a href="https://aliarsalankazmi.github.io">here</a></p></strong></center>
 <br>
 
 
