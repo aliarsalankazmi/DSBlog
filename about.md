@@ -4,11 +4,13 @@ title : About
 permalink: /about/
 ---
 
-<h2>Gravity</h2>
-<p>Minimal, text based, liberal Jekyll theme<br>for sharing your awesome ideas.</p>
 <br>
-<center><p ><strong><span class="manual">Get up and running with</span> Gravity</strong></p></center>
+<center><p ><strong><span class="manual">Ali Arsalan Kazmi -- Data Scientist</span> Gravity</strong></p>
+        <p>Biography available <a href="https://aliarsalankazmi.github.io">here</a></p></center>
 <br>
+
+
+
 <div class="manual-post">
   <div class="manual manual-title">
   <strong>Posting</strong>
