@@ -24,15 +24,15 @@ A data frame with 214 observation containing examples of the chemical analysis o
 8. Ba: Barium
 9. Fe: Iron
 10. Type:
-⋅⋅* building_windows_float_processed
-⋅⋅* building_windows_non_float_processed
-⋅⋅* vehicle_windows_float_processed
-⋅⋅* vehicle_windows_non_float_processed (none in this database)
-⋅⋅* containers
-⋅⋅* tableware
-⋅⋅* headlamps
+    - building_windows_float_processed
+    - building_windows_non_float_processed
+    - vehicle_windows_float_processed
+    - vehicle_windows_non_float_processed (none in this database)
+    - containers
+    - tableware
+    - headlamps
 
-####Data Inspection
+#### Data Inspection
 We first inspect the target class — the Type variable — to see the distribution of various types of glasses. The following pie chart was obtained.
 
 
