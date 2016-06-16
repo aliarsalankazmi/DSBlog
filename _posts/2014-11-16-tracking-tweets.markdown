@@ -34,5 +34,5 @@ A link to the code used in extracting data from Twitter, and for producing the a
 
 
 
-#####*God’s help do we seek, and success is only through Him.*
+*God’s help do we seek, and success is only through Him.*
 
