@@ -15,7 +15,7 @@ However, it has not been quite possible to accomplish this due to the following 
 
 ![alt text][tweetMap]
 
-[tweetMap]: /assets/img/twmh.png "Mapping Tweets Pertaining to Muharram/Ashoura"
+[tweetMap]: https://desertscrolls.files.wordpress.com/2014/11/twmh.png "Mapping Tweets Pertaining to Muharram/Ashoura"
 
 
 ***
