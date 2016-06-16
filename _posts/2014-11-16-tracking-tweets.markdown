@@ -32,5 +32,7 @@ InshaAllah, this could be a starting point for more, wonderful images produced b
 
 A link to the code used in extracting data from Twitter, and for producing the above graphic can be found [here](https://github.com/aliarsalankazmi/tweeters-Muharram-Ashura). Please note that due to restrictions placed by Twitter on their data, it may not be possible to extract tweets for past dates.
 
-*God’s help do we seek, and success is only through Him.*
+
+
+#####*God’s help do we seek, and success is only through Him.*
 
