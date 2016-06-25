@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Design Stories : Gravity"
-date:   2016-03-30 19:45:31 +0530
-categories: ["design", "science", "life"]
-author: "Hemang Kumar"
+title:  "Visualising Narrators in Bukhari's Ahadith"
+date:   2016-06-26 13:45:31 +0530
+categories: Posts
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Trying to improve upon the network of narrators previously built as a traditional node-link network diagram. The study I conducted can be found [here](http://rpubs.com/aakazmi/bukhariAnalyses_P1).   
 
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Following is a Hive Plot that arranges each category of narrators on a different line, sorting them in order of *in* and *out* edges they have.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+![Network of Narrators from Bukhari](/assets/img/hp_narrators.png)
+
