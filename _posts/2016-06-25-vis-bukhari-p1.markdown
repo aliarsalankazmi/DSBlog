@@ -9,7 +9,5 @@ Trying to improve upon the network of narrators previously built as a traditiona
 
 Following is a Hive Plot that arranges each category of narrators on a different line, sorting them in order of *in* and *out* edges they have.
 
-
-![Network of Narrators from Bukhari](/assets/img/hp_narrators.png)
-<img src="{{ site.baseurl }}/assets/img/hp_narrators.png">
+<a href="..." target="_blank"> <img src="{{ site.baseurl }}/assets/img/hp_narrators.png"> </a>
 
