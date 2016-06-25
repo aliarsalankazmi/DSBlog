@@ -11,5 +11,3 @@ Following is a Hive Plot that arranges each category of narrators on a different
 
 
 
-![Network of Narrators from Bukhari](/assets/img/hp_narrators.png)
-
