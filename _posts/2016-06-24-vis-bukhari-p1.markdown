@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Visualising Narrators in Bukhari's Ahadith"
-date:   2016-06-25 13:45:31 +0530
+date:   2016-06-24 13:45:31 +0530
 categories: Posts
 ---
 
