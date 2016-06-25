@@ -16,7 +16,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #000000;//#111;
-$background-color: #DCCBC5;//#DAC8C1;//#fdfdfd;
+$background-color: #000000;//this is brown: #DCCBC5;//#DAC8C1;//#fdfdfd;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -567,13 +567,13 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
-  line-height: 3;
+  font-size: 22px;
+  line-height: 2;
   text-align: center;
   font-family: "Old Standard TT";//"PT Sans";
-  font-weight: 900;
+  font-weight: 400;
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: 22px;
   }
 }
 .post-content {
@@ -582,21 +582,21 @@ pre {
     font-size: 15px;//1.5rem;
   }
   h2 {
-    font-size: 32px;
+    font-size: 20px;
     @include media-query($on-laptop) {
-      font-size: 28px;
+      font-size: 20px;
     }
   }
   h3 {
-    font-size: 26px;
+    font-size: 18px;
     @include media-query($on-laptop) {
-      font-size: 22px;
+      font-size: 18px;
     }
   }
   h4 {
-    font-size: 20px;
+    font-size: 16px;
     @include media-query($on-laptop) {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 }
