@@ -3,6 +3,7 @@ layout: post
 title:  "Visualising Narrators in Bukhari's Ahadith - Part 1"
 date:   2016-06-24 13:45:31 +0530
 categories: Posts
+comments: true
 ---
 
 Trying to improve upon the network of narrators previously built as a traditional node-link network diagram. The study I conducted can be found [here](http://rpubs.com/aakazmi/bukhariAnalyses_P1).   
