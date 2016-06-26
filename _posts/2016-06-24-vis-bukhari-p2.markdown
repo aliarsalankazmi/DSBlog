@@ -7,7 +7,7 @@ categories: Posts
 
 Instead of using a traditional Network Diagram, using the impressive [BioFabric](http://www.biofabric.org/) for a cleaner, understandable graph. The following uses the `RBioFabric`package developed by the very talented [Kenton Russell](https://github.com/timelyportfolio). 
 
-<iframe src="http://aliarsalankazmi.github.io/blog_DA/assets/img/bioF1-1.svg" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="http://aliarsalankazmi.github.io/blog_DA/assets/img/bioF1-1.svg" marginwidth="0" marginheight="0" scrolling="no" width="600" height="500"></iframe>
 
 ![Network of Narrators](http://aliarsalankazmi.github.io/blog_DA/assets/img/bioF1-1.svg)
 
