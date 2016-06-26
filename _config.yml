@@ -13,7 +13,6 @@ baseurl: "/blog_DA" # the subpath of your site, e.g. /blog
 url: "http://aliarsalankazmi.github.io" # the base hostname & protocol for your site
 twitter_username: scac1041
 github_username:  aliarsalankazmi
-comments: true
 
 # Build settings
 markdown: kramdown
