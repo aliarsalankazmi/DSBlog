@@ -10,5 +10,9 @@ Instead of using a traditional Network Diagram, using the impressive [BioFabric]
 
 An interactive version of the diagram can be found [here](http://rpubs.com/aakazmi/bukhariAnalyses_P4).
 
+
+<iframe src="http://rstudio-pubs-static.s3.amazonaws.com/192128_724d81ae4631435bb6f230ff1d844c40.html" marginwidth="0" marginheight="0" scrolling="yes" width="600" height="400"></iframe>
+
+
 ![Network of Narrators](http://aliarsalankazmi.github.io/blog_DA/assets/img/bioF1-1.svg)
 
