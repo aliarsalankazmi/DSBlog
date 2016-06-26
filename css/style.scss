@@ -354,8 +354,8 @@ pre {
 }
 .postTitle {
   font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
+  text-align: left; /*center;*/
+  text-transform: capitalize; /*uppercase; */
   letter-spacing: 3px;
   text-indent: 3px;
 }
