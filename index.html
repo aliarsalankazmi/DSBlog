@@ -7,6 +7,9 @@ layout: default
 
   {% for post in site.posts%}
   <div class="post postContent">
+    <div class="postTitle">
+    <a class='postLink' href="{{post.url| prepend:site.baseurl}}">{{post.title}}</a>
+    </div>
     <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
     </div>
     <div class="postDay">
