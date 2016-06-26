@@ -3,6 +3,7 @@ layout: post
 title:  "Inspecting and Exploring Data – Applied Predictive Modelling (Chapter 3)"
 date:   2014-04-17 19:45:31 +0530
 categories: Posts
+comments: true
 ---
 
 This post comprises my attempt in answering questions from the 3rd Chapter of the book, [Applied Predictive Modelling](http://www.springer.com/statistics/life+sciences,+medicine+%26+health/book/978-1-4614-6848-6). The chapter emphasises mostly on inspecting data and transforming appropriately any variables as per requirement. Nevertheless, I have also carried out some exploratory analyses of the variables with respect to the target class.
