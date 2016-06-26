@@ -3,6 +3,7 @@ layout: post
 title:  "Tracking Tweets' Geographically"
 date:   2014-11-16 19:45:31 +0530
 categories: Posts
+comments: true
 ---
 Muharram is a month that Shi'ite Muslims observe with sorrow and grief, mourning for the Leader of the youth of Paradise, [Imam Hussain](https://en.wikipedia.org/wiki/Husayn_ibn_Ali), who was martyred along with his family members at Karbala. Hussain, the grandson of the Holy Prophet of Islam, was wronged, oppressed, harassed, abandoned, and killed by Muslims at the 10th day of Muharram, in the [battle of Karbala](https://en.wikipedia.org/wiki/Battle_of_Karbala).  
 
