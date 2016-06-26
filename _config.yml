@@ -10,7 +10,7 @@ title: A Blog on Data Analytics
 email: kazmialiarsalan@gmail.com
 description: Ali Arsalan Kazmi
 baseurl: "/blog_DA" # the subpath of your site, e.g. /blog
-url: "http://aliarsalankazmi.github.io/blog_DA" # the base hostname & protocol for your site
+url: "http://aliarsalankazmi.github.io" # the base hostname & protocol for your site
 twitter_username: scac1041
 github_username:  aliarsalankazmi
 
