@@ -521,8 +521,8 @@ pre {
   width: calc(45% - (#{$spacing-unit} / 2));
 }
 .footer-col-4 {
-  width: -webkit-calc(70% - (#{$spacing-unit} / 2));
-  width: calc(70% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+  width: calc(45% - (#{$spacing-unit} / 2));
 }
 @include media-query($on-laptop) {
   .footer-col-1,
