@@ -686,9 +686,9 @@ pre {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Old Standard TT;
+  font-family: Arial;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 40px;
   height: 30px;
   width: 140px;
   background: #747475;
@@ -696,7 +696,7 @@ pre {
   text-decoration: none;
 }
 
-#subscribeBtn {
+#subscribeBtn:hover {
   background: #18191a;
   text-decoration: none;
 }
