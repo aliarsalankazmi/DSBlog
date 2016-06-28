@@ -3,7 +3,6 @@ layout: page
 title : About
 permalink: /about/
 category: About
-tagline: Meagre info about me
 ---
 
 # I am: 
