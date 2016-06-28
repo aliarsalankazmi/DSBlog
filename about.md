@@ -20,7 +20,7 @@ category: About
 
 <br>
 <center><p><strong>
-                <span class="manual">Ali Arsalan Kazmi</span></strong></p>
+                <!--<span class="manual">Ali Arsalan Kazmi</span></strong></p> -->
                 <p><strong>Old and out of date bio page available <a href="https://aliarsalankazmi.github.io" target="_blank">here</a></strong>
                 </p>
 </center>
