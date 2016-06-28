@@ -5,7 +5,7 @@ permalink: /about/
 category: About
 ---
 
-# I am 
+# I am: 
 
 - a **Data Scientist**, working as an **Insights Analyst** at [AIMIA](www.aimia.com);  
 
