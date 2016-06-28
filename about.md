@@ -11,7 +11,9 @@ category: About
 
 - an (as yet, not fully realised) **Philosopher's** soul, in an increasingly **Unphilosophical** world 
 
-- a person with the temperament of an **Artist**, in a **Scientific** discipline; 
+- a person with the temperament of an **Artist**, in a **Scientific** discipline;  
+
+- an **Autodidact** and a **Polyglot**
  
 - an **Ascetic**, pursuing **Calisthenics**  
 
