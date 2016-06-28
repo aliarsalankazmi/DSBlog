@@ -1,9 +1,21 @@
 ---
 layout: page
-title : About
+title : 
 permalink: /about/
 category: About
 ---
+
+#### I am 
+
+- a **Data Scientist**, working as an **Insights Analyst** at [AIMIA](www.aimia.com);  
+
+- an (as yet, not fully realised) **Philosopher's** soul, in an increasingly **Unphilosophical**  
+
+- a person with the temperament of an **Artist**, in a **Scientific** discipline; 
+ world  
+ 
+- an **Ascetic**, pursuing **Calisthenics**  
+
 
 <br>
 <center><p><strong>
