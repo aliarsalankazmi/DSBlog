@@ -676,3 +676,26 @@ pre {
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+
+/**
+ * Styling a subscribe button
+ */
+ 
+ #subscribeBtn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Old Standard TT";
+  color: #ffffff;
+  font-size: 12px;
+  background: #747475;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#subscribeBtn {
+  background: #18191a;
+  text-decoration: none;
+}
+ 
