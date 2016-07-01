@@ -594,6 +594,7 @@ pre {
   h3 {
     font-size: 18px;
     font-weight: 500;
+    margin-top: 50px;
     @include media-query($on-laptop) {
       font-size: 18px;
     }
@@ -601,8 +602,7 @@ pre {
   h4 {
     font-size: 16px;
     font-weight: 500;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
     @include media-query($on-laptop) {
       font-size: 16px;
     }
