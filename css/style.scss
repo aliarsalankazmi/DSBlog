@@ -593,14 +593,14 @@ pre {
   }
   h3 {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     @include media-query($on-laptop) {
       font-size: 18px;
     }
   }
   h4 {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     @include media-query($on-laptop) {
       font-size: 16px;
     }
