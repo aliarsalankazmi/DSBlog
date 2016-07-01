@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "A Shiny App for Exploratory Qualitative Analysis"
 date:   2014-01-17 19:45:31 +0530
