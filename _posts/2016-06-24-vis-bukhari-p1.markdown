@@ -10,36 +10,38 @@ Trying to improve upon the network of narrators previously built as a traditiona
 
 Following is a [Hive Plot](http://www.hiveplot.net/) that arranges each category of narrators on a different line, sorting them in order of *out* edges they have. The lines (or *edges*) connecting two narrators (or *nodes*) depicts that either has narrated from or two the other.
 
-<a href="{{ site.baseurl }}/assets/img/hv_plot_small.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot.png">
+<a href="{{ site.baseurl }}/assets/img/hv_plot.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_small.png">
+</a>  
+
+We can then colour the edges to the colour of the *narrator's* category. This is useful to see the direction of communication for a narration.  
+
+<a href="{{ site.baseurl }}/assets/img/hv_plot_colour.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_colour_small.png">
 </a>
 
-We can then colour the edges to the colour of the *narrator's* category. This is useful to see the direction of communication for a narration.
+Perhaps a granular view of the "links" is required, in which case we can show 3 categories instead of plotting all at once.  
 
-<a href="{{ site.baseurl }}/assets/img/hv_plot_colour_small.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_colour.png">
-</a>
 
-Perhaps a granular view of the "links" is required, in which case we can show 3 categories instead of plotting all at once.
+#### Prophet's Family, Companions, and Tabi'een
 
-#### Prophet's Family, Companions, and Tabi'een.
+<a href="{{ site.baseurl }}/assets/img/hv_plot_p1.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p1_small.png">
+</a>  
 
-<a href="{{ site.baseurl }}/assets/img/hv_plot_p1_small.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p1.png">
-</a>
 
-<a href="{{ site.baseurl }}/assets/img/hv_plot_p1_colour_small.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p1_colour.png">
-</a>
+<a href="{{ site.baseurl }}/assets/img/hv_plot_p1_colour.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p1_colour_small.png">
+</a>  
 
-#### Companions, Tabi'een, and Taba' Tabi'een.
+#### Companions, Tabi'een, and Taba' Tabi'een  
 
-<a href="{{ site.baseurl }}/assets/img/hv_plot_p2_small.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p2.png">
-</a>
+<a href="{{ site.baseurl }}/assets/img/hv_plot_p2.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p2_small.png">
+</a>  
 
-<a href="{{ site.baseurl }}/assets/img/hv_plot_p2_colour_small.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p2_colour.png">
-</a>
+<a href="{{ site.baseurl }}/assets/img/hv_plot_p2_colour.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p2_colour_small.png">
+</a>  
 
-#### Tabi'een, Taba' Tabi'een, and Third Century Scholars
+#### Tabi'een, Taba' Tabi'een, and Third Century Scholars  
 
-<a href="{{ site.baseurl }}/assets/img/hv_plot_p3_small.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p3.png">
-</a>
+<a href="{{ site.baseurl }}/assets/img/hv_plot_p3.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p3_small.png">
+</a>  
 
-<a href="{{ site.baseurl }}/assets/img/hv_plot_p3_colour_small.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p3_colour.png">
+<a href="{{ site.baseurl }}/assets/img/hv_plot_p3_colour.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p3_colour_small.png">
 </a>
