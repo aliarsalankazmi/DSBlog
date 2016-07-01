@@ -21,7 +21,7 @@ We can then colour the edges to the colour of the *narrator's* category. This is
 Perhaps a granular view of the "links" is required, in which case we can show 3 categories instead of plotting all at once.  
 
 
-## Prophet's Family, Companions, and Tabi'een
+#### Prophet's Family, Companions, and Tabi'een
 
 <a href="{{ site.baseurl }}/assets/img/hv_plot_p1.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p1_small.png">
 </a>  
