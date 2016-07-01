@@ -21,7 +21,7 @@ category: About
 <br>
 <center>
        <!--<p><strong><span class="manual">Ali Arsalan Kazmi</span></strong></p> -->
-                <p><strong>CV is available here<a href="{{ site.baseurl }}/assets/img/AAK_CV.pdf" target="_blank">here</a></strong></p>
+                <p><strong>CV is available<a href="{{ site.baseurl }}/assets/pdf/AAK_CV.pdf" target="_blank">here</a></strong></p>
                 <p><strong>Old bio page available <a href="https://aliarsalankazmi.github.io" target="_blank">here</a></strong>
                 </p>
 </center>
