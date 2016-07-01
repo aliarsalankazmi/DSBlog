@@ -27,7 +27,7 @@ Perhaps a granular view of the "links" is required, in which case we can show 3 
 </a>  
 
 
-<a href="{{ site.baseurl }}/assets/img/hv_plot_p1_colour.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p1_colour_small.png">
+<a href="{{ site.baseurl }}/assets/img/hv_plot_p1_Colour.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_p1_Colour_small.png">
 </a>  
 
 #### Companions, Tabi'een, and Taba' Tabi'een  
