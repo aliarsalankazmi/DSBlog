@@ -8,7 +8,7 @@ comments: true
 
 Trying to improve upon the network of narrators previously built as a traditional node-link network diagram. The study I conducted can be found [here](http://rpubs.com/aakazmi/bukhariAnalyses_P1).   
 
-Following is a [Hive Plot](http://www.hiveplot.net/) that arranges each category of narrators on a different line, sorting them in order of *out* edges they have. The lines (or *edges*) connecting two narrators (or *nodes*) depicts that either has narrated from or two the other.
+Following is a [Hive Plot](http://www.hiveplot.net/) that arranges each category of narrators on a different line, sorting them in order of *out* edges they have. The lines (or *edges*) connecting two narrators (or *nodes*) depicts that either one of them has narrated from or two the other.
 
 <a href="{{ site.baseurl }}/assets/img/hv_plot.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/hv_plot_small.png">
 </a>  
