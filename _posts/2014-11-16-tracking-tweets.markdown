@@ -1,10 +1,11 @@
-<!---
 ---
 layout: post
 title:  "Tracking Tweets' Geographically"
 date:   2014-11-16 19:45:31 +0530
 categories: Posts
 comments: true
+hidden: true
+published: false
 ---
 
 
@@ -42,4 +43,3 @@ A link to the code used in extracting data from Twitter, and for producing the a
 
 *God’s help do we seek, and success is only through Him.*
 
---->
