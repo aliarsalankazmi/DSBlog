@@ -17,7 +17,7 @@ For this post, I have extracted data of most notable Pakistani journalists from 
 
 
 
-#### Basic Analyses  
+### Basic Analyses  
 
 To begin, we may look at the number of followers and the number of people followed by Pakistani journalists.
 
@@ -50,7 +50,7 @@ Here, we see *Zarrar Khuhro* leading with almost 90 tweets a day (!), followed b
 
 
 
-#### Visualising Pakistani Journalists on Twitter as a Network
+### Visualising Pakistani Journalists on Twitter as a Network
 
 Taking advantage of the list of people who each journalist follows, we can plot this relationship as an edge/straight line connecting the various vertices (or points) that are journalists. This Network graph can be visualised in a [way](https://en.wikipedia.org/wiki/Force-directed_graph_drawing#CITEREFFruchtermanReingold1991) such that the most highly connected nodes/points are placed at the centre, and the less connected nodes at the outer areas.  
 
@@ -65,7 +65,7 @@ In the present case, however, the graph does not provide very useful insights - 
 
 
 
-#### Correspondence Analysis: Do any Journalists follow more people from a particular Political Party?
+### Correspondence Analysis: Do any Journalists follow more people from a particular Political Party?
 
 Since our data contain the 'friends' of all journalists in consideration, we can split the friends by their affiliation to any of the 3 Political parties in Pakistan (PML - N, PTI, PPP), and perform [Correspondence Analysis](https://en.wikipedia.org/wiki/Correspondence_analysis) on the counts' data. Perhaps with this we can see some inclinations/interests of journalists to/for a political party, if they follow members from one party exclusively.  
 
@@ -88,13 +88,13 @@ This time, the horizontal separation explains 62% of information, separating PTI
 
 
 
-#### Sentiment Scoring - What sentiments are expressed in tweets liked by each Journalist?
+### Sentiment Scoring - What sentiments are expressed in tweets liked by each Journalist?
 
 So far we have analysed quantitative data about our journalists. We can conduct a basic Sentiment analysis on tweets liked by each journalist to see if these are generally of a negative or positive sentiment. This will be basic insofar as it will be a binary matching of words in the liked tweets to determine if more words appear in a list of 'negative words' (such as bad, poor, etc.) or 'positive words' (great, awesome, etc.).  
 _A caveat, here, is that our data on liked tweets has been limited to 200 most recent tweets._  
 
 
-<a href="{{ site.baseurl }}/assets/img/j_graph9.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/j_graph9.png"></a>
+<a href="{{ site.baseurl }}/assets/img/j_graph9.jpeg" target="_blank"><img src="{{ site.baseurl }}/assets/img/j_graph9.jpeg"></a>
 
 
 And we achieve a slightly surprising result: journalists like Waseem Badami, Hassan Nisar, Mubasher Lucman appear to like recent tweets that are positive, whilst Raza Rumi, Murtaza Ali Shah, Moeed Pirzada, and Zarrar Khuhro have been liking tweets that are negative, lately.  
@@ -106,7 +106,7 @@ And we achieve a slightly surprising result: journalists like Waseem Badami, Has
 
 
 
-#### Topic Modelling
+### Topic Modelling
 
 Now that we know, generally, which journalists have been recently liking positive and negative tweets, it will be interesting to find out what these tweets are about. [Topic modelling](https://en.wikipedia.org/wiki/Topic_model) is technique that can find out associations between various words and extract the key words out of these, trying to provide some sense to the analyst about what the contents/topics of these tweets are. This is a sophisticated, Mathematical technique, which won't be explained in this document due to the limited scope of this post.  
 It is also noteworthy that although Topic modelling as an exploratory analysis tool requires us to carefully choose the number of topics we need to identify, we have chosen this number quite arbitrarily, just to demonstrate its utility in a quick fashion.   
@@ -114,47 +114,47 @@ It is also noteworthy that although Topic modelling as an exploratory analysis t
 Below, we present 7 topics identified for each journalist who were present at the extreme ends of our Sentiment graph:  
 
 
-##### Moeed Pirzada
+#### Moeed Pirzada
 
 <a href="{{ site.baseurl }}/assets/img/Moeed Pirzada_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Moeed Pirzada_wc.png"></a>
 
-##### Murtaza Ali Shah
+#### Murtaza Ali Shah
 
 <a href="{{ site.baseurl }}/assets/img/Murtaza Ali Shah_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Murtaza Ali Shah_wc.png"></a>
 
-##### Raza Rumi
+#### Raza Rumi
 
 <a href="{{ site.baseurl }}/assets/img/Raza Ahmad Rumi_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Raza Ahmad Rumi_wc.png"></a>
 
-##### Zarrar Khuhro
+#### Zarrar Khuhro
 
 <a href="{{ site.baseurl }}/assets/img/Zarrar Khuhro_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Zarrar Khuhro_wc.png"></a>
 
-##### Fahd Hussain
+#### Fahd Hussain
 
-<a href="{{ site.baseurl }}/assets/img/Fahd Hussain_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Fahd Hussain_wc.png"></a>
+<a href="{{ site.baseurl }}/assets/img/Fahd Hussain_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Fahd Husain_wc.png"></a>
 
-##### Hassan Nisar
+#### Hassan Nisar
 
 <a href="{{ site.baseurl }}/assets/img/Hassan Nisar_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Hassan Nisar_wc.png"></a>
 
-##### Meher Abbasi
+#### Meher Abbasi
 
 <a href="{{ site.baseurl }}/assets/img/Meher Bokhari_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Meher Bokhari_wc.png"></a>
 
-##### Waseem Badami
+#### Waseem Badami
 
 <a href="{{ site.baseurl }}/assets/img/Waseem Badami_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Waseem Badami_wc.png"></a>
 
-##### Nasim Zehra
+#### Nasim Zehra
 
 <a href="{{ site.baseurl }}/assets/img/Nasim Zehra_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Nasim Zehra_wc.png"></a>
 
-##### Shaheen Sehbai
+#### Shaheen Sehbai
 
 <a href="{{ site.baseurl }}/assets/img/Shaheen Sehbai_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Shaheen Sehbai_wc.png"></a>
 
-##### Mubasher Lucman
+#### Mubasher Lucman
 
 <a href="{{ site.baseurl }}/assets/img/Mubasher Lucman_wc.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/Mubasher Lucman_wc.png"></a>
 
@@ -167,7 +167,7 @@ It is interesting how much information about our journalists can be gleaned from
 
 
 
-#### Conclusion
+### Conclusion
 
 Whilst Journalism has been flourishing in Pakistan in its traditional form, [Data Journalism](https://en.wikipedia.org/wiki/Data_journalism) has been less prevalent. The utility of Data Journalism can, however, not be ignored, as seen in this blog post. And although the current post focused on Journalists alone, it is indeed possible to gain some insights on Political figures in Pakistan, by analysing their data.  
 
