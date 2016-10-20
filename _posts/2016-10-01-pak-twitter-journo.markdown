@@ -2,7 +2,7 @@
 layout: post
 title:  "Watching the Watchers - An Analysis of Pakistani Journalists using their Twitter Data"
 date:   2016-10-1 15:45:31 +0530
-categories: Posts
+categories: ["Posts", "R"]
 comments: true
 ---
 
