@@ -8,6 +8,6 @@ tagline: A collection of Recommended Blogs, Books, etc.
   
     
       
-      
-1. [Flowing Data](http://flowingdata.com/)  
-2. [R-bloggers](https://www.r-bloggers.com/)
+1. <a href="http://flowingdata.com/" target="_blank">Flowing Data</a>      
+2. <a href="https://www.r-bloggers.com/" target="_blank">R-bloggers</a>
+
