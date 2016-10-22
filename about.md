@@ -7,7 +7,7 @@ category: About
 
 # I am: 
 
-- a **Data Scientist**, working as an **Insights Analyst** at a Global Loyalty Analytics Company;  
+- a **Data Scientist**, working as an **Insights Analyst** in the Loyalty Analytics Industry;  
 
 - an (as yet, not fully realised) **Philosopher's** soul, in an increasingly **Unphilosophical** world 
 
