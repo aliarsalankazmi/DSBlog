@@ -7,9 +7,9 @@ comments: true
 ---
 
 
-Microsoft provides some sophisticated Machine Learning tools via its <a href="https://www.microsoft.com/cognitive-services">Cognitive Services</a>: Microsoft enables us to access several of its APIs in order to leverage Advanced Analyses. One of these is the <a href="https://www.microsoft.com/cognitive-services/en-us/emotion-api">Emotion API</a> which can be fed pictures or videos that will be analysed and emotions detected therein will be returned to the user.   
+Microsoft provides some sophisticated Machine Learning tools via its <a href="https://www.microsoft.com/cognitive-services" target="_blank">Cognitive Services</a>: Microsoft enables us to access several of its APIs in order to leverage Advanced Analyses. One of these is the <a href="https://www.microsoft.com/cognitive-services/en-us/emotion-api" target="_blank">Emotion API</a> which can be fed pictures or videos that will be analysed and emotions detected therein will be returned to the user.   
 
-Emotion Detection can have a variety of applications, one of them being to Data Journalism. Ben Heubl, for example, <a href="https://benheubl.github.io/data%20analysis/fr/">applied</a> this technique to the Presidential Election Debates between Hillary Clinton and Donald Trump. And whilst Emotion Detection is not a 100% accurate, it does enable Data Journalists to supplement their repertoire with an interesting capability.  
+Emotion Detection can have a variety of applications, one of them being to Data Journalism. Ben Heubl, for example, <a href="https://benheubl.github.io/data%20analysis/fr/" target="_blank">applied</a> this technique to the Presidential Election Debates between Hillary Clinton and Donald Trump. And whilst Emotion Detection is not a 100% accurate, it does enable Data Journalists to supplement their repertoire with an interesting capability.  
 
 In this (short) post, I shall be attempting to use MS Emotion API to detect emotions in instances where the conventional Journalistic reporting is limited: Meetings where microphones are supposed to be switched off, and only cameras are on. Examples are occasionally the meetings between the Pakistani Prime Minister Nawaz Sharif and Raheel Sharif, the Chief of Army Staff. (I have been told that) In such gatherings, journalists are sometimes requested to use only a Video camera and not a microphone to record discussions. Press Releases are subsequently made, outlining the topics of discussion.  
 
@@ -43,5 +43,5 @@ Now, we can see that the most notable emotions are of neutrality and anger. Thes
 So, a very quick tutorial of a technology that can be very relevant to Data Journalists in Pakistan, particularly to quantify emotive responses in situations where journalists are not allowed to record conversations. It can also be used to study emotions of various political leaders in interviews, to then report how emotions of politicians might be aroused as they are asked difficult questions.  
 
 
-The `R` code used to perform this analysis and visualisation will be uploaded soon.  
+The `R` code used to perform this analysis and visualisation can be found <a href="https://raw.githubusercontent.com/aliarsalankazmi/Facereading-with-MS-Emotion-API/master/Scripts/Nawaz%20Raheel%20Analyses_Final.txt" target="_blank">here</a>.  
 I would like to acknowledge the kind help offered by my brother in collecting videos that were analysed (which can be somewhat difficult as the Emotion API has a limit of 100Mb on the size of an uploaded video).
