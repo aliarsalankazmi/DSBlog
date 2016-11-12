@@ -42,3 +42,6 @@ Now, we can see that the most notable emotions are of neutrality and anger. Thes
 
 So, a very quick tutorial of a technology that can be very relevant to Data Journalists in Pakistan, particularly to quantify emotive responses in situations where journalists are not allowed to record conversations. It can also be used to study emotions of various political leaders in interviews, to then report how emotions of politicians might be aroused as they are asked difficult questions.  
 
+
+The `R` code used to perform this analysis and visualisation will be uploaded soon.  
+I would like to acknowledge the kind help offered by my brother in collecting videos that were analysed (which can be somewhat difficult as the Emotion API has a limit of 100Mb on the size of an uploaded video).
