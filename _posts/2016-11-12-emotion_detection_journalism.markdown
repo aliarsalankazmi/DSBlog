@@ -44,4 +44,4 @@ So, a very quick tutorial of a technology that can be very relevant to Data Jour
 
 
 The `R` code used to perform this analysis and visualisation can be found <a href="https://raw.githubusercontent.com/aliarsalankazmi/Facereading-with-MS-Emotion-API/master/Scripts/Nawaz%20Raheel%20Analyses_Final.txt" target="_blank">here</a>.  
-I would like to acknowledge the kind help offered by my brother in collecting videos that were analysed (which can be somewhat difficult as the Emotion API has a limit of 100Mb on the size of an uploaded video).
+I would like to acknowledge the kind help offered by my brother in collecting and trimming videos that were analysed (which can be somewhat difficult as the Emotion API has a limit of 100Mb on the size of an uploaded video).
