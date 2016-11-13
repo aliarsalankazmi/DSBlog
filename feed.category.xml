@@ -15,9 +15,6 @@
 
                     <item>
                 <title>{{ post.title | xml_escape }}</title>
-                {% if post.excerpt %}
-                    <description>{{ post.excerpt | xml_escape }}</description>
-        {% endif %}  
                 {% if post.content %}
                     <description>{{ post.content | xml_escape }}</description>
                 {% endif %}
