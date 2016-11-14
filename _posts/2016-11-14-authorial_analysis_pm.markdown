@@ -1,10 +1,9 @@
-﻿---
+---
 layout: post
 title:  "An Authorial Analysis of the Prime Minister's Speeches"
 date:   2016-11-04 10:45:31 +0530
 categories: ["Posts", "R"]
 comments: true
-encoding: UTF-8
 ---
 
 
