@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "How many Authors does the Prime Minister have for his speeches: A Stylometric Analysis"
 date:   2016-11-14 10:45:31 +0530
