@@ -22,7 +22,6 @@ category: About
 <center>
        <!--<p><strong><span class="manual">Ali Arsalan Kazmi</span></strong></p> -->
                 <p><strong>CV is available <a href="{{ site.baseurl }}/assets/pdf/AAK_CV.pdf" target="_blank">here</a></strong></p>
-                </p>
 </center>
 <br>
 
