@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deck on an Authorial Analysis of the Prime Minister's Speeches"
-date:   2016-11-26 10:45:31 +0530
+date:   2016-11-26
 categories: ["Posts", "R"]
 comments: true
 ---
@@ -17,7 +17,8 @@ The original post can be accessed from <a href="http://aliarsalankazmi.github.io
  
 The code that goes into this deck is presented below.   
  
-<pre>---
+
+<pre>---
 ---
 title       : How Many Writers does the Prime Minister have for his Speeches?
 subtitle    : An Authorial Analysis
@@ -164,7 +165,8 @@ Different datasets genereted using:
 >- Indicates there may be two (or more) authors
 >- Blog post can be accessed <a href="http://aliarsalankazmi.github.io/blog_DA/posts/r/2016/11/18/authorial_analysis_pm.html" target="_blank">here</a>
 
----</pre>
+
+---</pre>
 
 
 
