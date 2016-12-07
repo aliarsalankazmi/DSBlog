@@ -17,7 +17,7 @@ But why not to use a language/environment that was formulated for Statistical Da
 
 And if <a href="https://www.meetup.com/doha-rug/" target="_blank">Qatar/Doha</a> can have an R User Group, then why can Riyadh not have one too? ;)
 
-<b>Announcing: Riyadh UseR Group</b>
+<a href="https://www.meetup.com/Riyadh-UseR-Group/" target="_blank"><b>Announcing: Riyadh UseR Group</b></a>
 
 I will be contacting various analysts I know in Riyadh to increase awareness about the group.  
 If you happen to be living in Riyadh, do consider joining <a href="https://www.meetup.com/Riyadh-UseR-Group/" target="_blank">us</a>.  
