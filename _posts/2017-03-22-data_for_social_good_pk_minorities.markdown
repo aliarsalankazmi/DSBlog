@@ -97,5 +97,5 @@ I then thought about calculating the 95% Confidence Intervals to identify the ra
 Sindh again comes out as having a very small confidence interval, showing that on average a person or two of Shia Muslims are either killed or injured. The confidence interval is highest for Balochistan and FATA (Federally Administered Tribal Areas), for which the range of casualties on average is from 6 to 15, and 5 to 17, respectively.
 
 
-The code used in this post can be found [here](https://github.com/aliarsalankazmi/skPk_analysis/blob/master/excelDB_analysis_v1.txt).
-
+The code used in this post can be found [here](https://github.com/aliarsalankazmi/skPk_analysis/blob/master/excelDB_analysis_v1.txt).  
+**If you would like to help the victims of such attacks on Shia Muslims, you may please donate to Shaheed Foundation UK [here](http://www.shaheedfoundation.co.uk/online-donation.asp). Thank you for your consideration.**
