@@ -58,13 +58,13 @@ For this, I first generated a simple time series plot, as shown below.
 But I felt the above was slightly difficult to look at, because I wanted to present the information in a different way: Muharram is the 1st month of the Islamic calendar (which comprises of 12 months), and I needed to show the flow of months such that the 2nd or 3rd months are as close to Muharram as the 11th or 12th months. This was possible to achieve if we changed to polar coordinates, ending up with the following circular time-series plot.  
 
 
-<a href="{{ site.baseurl }}/assets/img/sk_mar17_cts_g6b.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/sk_mar17_cts_g6a.png"></a> 
+<a href="{{ site.baseurl }}/assets/img/sk_mar17_cts_g6a.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/sk_mar17_cts_g6b.png"></a> 
 
 
 With this plot, I think it becomes easier to spot any surge or drop in the GAM smoother. As it appears, Punjab, Sindh, and FATA do appear to have more data points in or close to Muharram, with the smoother slightly shifting up in the case of Punjab. We can further split the smoother on years.  
 
 
-<a href="{{ site.baseurl }}/assets/img/sk_mar17_cts_g6d.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/sk_mar17_cts_g6c.png"></a> 
+<a href="{{ site.baseurl }}/assets/img/sk_mar17_cts_g6c.png" target="_blank"><img src="{{ site.baseurl }}/assets/img/sk_mar17_cts_g6d.png"></a> 
 
 
 Now, it appears that for years prior to 2014, casualties in or close to Muharram were higher than they were in 2014. This is not applicable to Sindh, however, as we see that the trend remains constant throughout the years, with very little difference (if any) in the number of casualties.  
