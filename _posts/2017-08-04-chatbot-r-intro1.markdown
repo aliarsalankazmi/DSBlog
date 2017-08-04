@@ -35,7 +35,7 @@ But where do we host our app such that we can communicate it via its URL?
 A possible candidate is [Heroku](https://www.heroku.com/) - we can develop a simple chatbot and deploy it to Heroku. It will be live, and thus able to receive any verification requests and notifications that Facebook might send. R does not have an official buildpack for Heroku at the time of this writing, however. There is an [unofficial buildpack](https://github.com/virtualstaticvoid/heroku-buildpack-r) on Github, but I have been unable to get it working for me *and* I am feeling lazy. So instead of heroku, I am going to rely on ngrok.  
 
 
-## Set up Webhook and Complete our Verification
+### Set up Webhook and Complete our Verification
 
 
 We need to first setup our Webhook, as Facebook will initially send a [Verification request](https://developers.facebook.com/docs/graph-api/webhooks#verification). It is only after this verification that Facebook will send notifications to our chatbot via the callback URL. In a verification request, Facebook sends 3 parameters:  
@@ -52,24 +52,7 @@ We need to first setup our Webhook, as Facebook will initially send a [Verificat
 
 I am going to quickly script a few lines that will enable us to verify our callback URL, using the [plumber](https://cran.r-project.org/web/packages/plumber/README.html) package. Plumber allows you to create APIs by merely decorating your existing R code with special annotations, and I encourage you to read their [documentation](https://www.rplumber.io/docs/index.html). I have, in my current project, found it to provide functionality similar to what flask does for Python.  
 
-`
-library(plumber)
-library(httr)
-library(data.table)
-library(RCurl)
-library(jsonlite)
-
-
-#* @serializer html
-#* @get /
-myFunc <- function(hub.mode, hub.challenge, hub.verify_token){
-if(hub.verify_token == "RRocker"){
-	return(hub.challenge)
- } else{
-return(paste("Verification Token mismatch", 403))
- }
-}
-`
+Please view the script by visiting this [link](https://github.com/aliarsalankazmi/fb-r-messenger-bot/blob/master/chatbot.R).
 
 
 ### Step 2: Save the Script and Run it!  
@@ -77,7 +60,8 @@ return(paste("Verification Token mismatch", 403))
 Once you have copied the script shown above, save it as an R file, open an R session, and run the following code:  
 
 `
-r <- plumb("<path to your R file>")
+r <- plumb("<path to your R file>")  
+
 r$run(port=5000)  
 `
 
@@ -100,8 +84,10 @@ This will show you a screen like the one below, where you can take note of the *
 You may open another R session to test our script. For example, I ran the below code and inspected the response in ngrok's Web Interface as well as in R using the httr package:  
 
 `
-library(httr)
-url2 <- "https://a5da2efd.ngrok.io?hub.challenge=hubChallenger&hub.mode=subscribe&hub.verify_token=RRocker"
+library(httr)  
+
+url2 <- "https://a5da2efd.ngrok.io?hub.challenge=hubChallenger&hub.mode=subscribe&hub.verify_token=RRocker"  
+
 res1 <- GET(url2, verbose())
 `  
 
@@ -115,10 +101,11 @@ Keep in mind the significance of parameters shown above (after the question mark
 Here, we simply paste in the secure URL from ngrok to Facebook. If things are alright, we will see a screen like below.  
 
 <insert image here>
-<a href="{{ site.baseurl }}/assets/img/app_success_webhook1.PNG" target="_blank"><img src="{{ site.baseurl }}/assets/img/app_success_webhook1.PNG"></a> 
-   
+<a href="{{ site.baseurl }}/assets/img/app_success_webhook1.PNG" target="_blank"><img src="{{ site.baseurl }}/assets/img/app_success_webhook1.PNG"></a>   
 
-## What Now?  
+
+
+### What Now?  
 
 Admittedly, this is a very first step in our chatbot development endeavour. It is, however, a vital one. What we ought to do now is to carry out a perusal of [Facebook's documentation](https://developers.facebook.com/docs/messenger-platform) to understand how we need to handle POST requests, as it is such requests that will contain messages from other users as they try to engage with our chatbot.  
 
