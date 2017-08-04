@@ -52,7 +52,24 @@ We need to first setup our Webhook, as Facebook will initially send a [Verificat
 
 I am going to quickly script a few lines that will enable us to verify our callback URL, using the [plumber](https://cran.r-project.org/web/packages/plumber/README.html) package. Plumber allows you to create APIs by merely decorating your existing R code with special annotations, and I encourage you to read their [documentation](https://www.rplumber.io/docs/index.html). I have, in my current project, found it to provide functionality similar to what flask does for Python.  
 
-Please view the script by visiting this [link](https://github.com/aliarsalankazmi/fb-r-messenger-bot/blob/master/chatbot.R).
+```
+library(plumber)
+library(httr)
+library(data.table)
+library(RCurl)
+library(jsonlite)
+
+
+#* @serializer html
+#* @get /
+myFunc <- function(hub.mode, hub.challenge, hub.verify_token){
+if(hub.verify_token == "RRocker"){
+	return(hub.challenge)
+ } else{
+return(paste("Verification Token mismatch", 403))
+ }
+}
+```
 
 
 ### Step 2: Save the Script and Run it!  
