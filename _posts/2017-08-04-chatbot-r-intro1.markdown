@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Initiating development of a chatbot with plumber and ngrok"
-date:   2017-08-04 18:00:31
+date:   2017-08-04
 categories: ["Posts", "R"]
 comments: true
 ---
