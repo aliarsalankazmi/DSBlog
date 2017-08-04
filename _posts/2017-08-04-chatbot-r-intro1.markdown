@@ -59,11 +59,11 @@ Please view the script by visiting this [link](https://github.com/aliarsalankazm
 
 Once you have copied the script shown above, save it as an R file, open an R session, and run the following code:  
 
-`
+```
 r <- plumb("<path to your R file>")  
 
 r$run(port=5000)  
-`
+```
 
 
 ### Step 3: Launch ngrok   
@@ -83,13 +83,13 @@ This will show you a screen like the one below, where you can take note of the *
 
 You may open another R session to test our script. For example, I ran the below code and inspected the response in ngrok's Web Interface as well as in R using the httr package:  
 
-`
+```
 library(httr)  
 
 url2 <- "https://a5da2efd.ngrok.io?hub.challenge=hubChallenger&hub.mode=subscribe&hub.verify_token=RRocker"  
 
 res1 <- GET(url2, verbose())
-`  
+```  
 
 Keep in mind the significance of parameters shown above (after the question mark). You can see in a screenshot of ngrok's web interface an inspection of our request and the response given by our script - things are looking good!  
 
