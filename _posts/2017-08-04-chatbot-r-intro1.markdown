@@ -122,14 +122,22 @@ Here, we simply paste in the secure URL from ngrok to Facebook. If things are al
 
 
 
+
+
 ### What Now?    
+
+
 
 Admittedly, this is a very first step in our chatbot development endeavour. It is, however, a vital one. What we ought to do now is to carry out a perusal of [Facebook's documentation](https://developers.facebook.com/docs/messenger-platform) to understand how we need to handle POST requests, as it is such requests that will contain messages from other users as they try to engage with our chatbot.  
 
-I am unsure if I will be able to follow this through any time soon, as being employed full time and still working on a startup are already overwhelming tasks! But perhaps somebody more skilled will be able to take on from here sooner than I return!  
+I am unsure if I will be able to follow this through any time soon, as being employed full time and still working on a startup are already overwhelming tasks! But perhaps somebody more skilled will be able to take on from here sooner than I return!    
+
+
+
 
 
 ### Reference    
 
-This blog entry obtained a lot of help from [Masnun's blog post](http://masnun.com/2016/05/22/building-a-facebook-messenger-bot-with-python.html), which uses Python and ngrok for setting up an echo bot.
 
+
+This blog entry obtained a lot of help from [Masnun's blog post](http://masnun.com/2016/05/22/building-a-facebook-messenger-bot-with-python.html), which uses Python and ngrok for setting up an echo bot.
