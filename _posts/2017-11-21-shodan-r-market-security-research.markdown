@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Shodan - a tool for Security and Market Research"
+title:  "Shodan - A tool for Security and Market Research"
 date:   2017-11-21
 categories: ["Posts", "R"]
 comments: true
@@ -312,3 +312,4 @@ For the Shangri-La, we see little data, but one of the ports which caught my att
 #### Conclusion
 
 We have literally had a glimpse of the capabilities and usage of Shodan for Security and Market Research, and as it is obvious, Shodan's use as a Market Research tool is very promising. That Shodan is useful for Security Research is, I think, a side-effect. Nonetheless, it is not so simple to use Shodan for Market Research, and this is because unlike in other fields where application of Data Science/Mining requires primarily a decent knowledge of Statistics, I think with Shodan the Data Scientist would require a deep familiarity with Computer Science and Networking. This is not too hard to come by, but it may not be the repertoire of Data Scientists in Marketing Industry!  
+
