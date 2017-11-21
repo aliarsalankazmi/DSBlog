@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Shodan - A tool for Security and Market Research"
-date:   2017-11-21
+title: "Shodan - A tool for Security and Market Research"
+date: 2017-11-21
 categories: ["Posts", "R"]
 comments: true
 ---
