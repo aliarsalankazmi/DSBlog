@@ -18,3 +18,6 @@ disqus_shortname: aliarsalankazmi
 # Build settings
 markdown: kramdown
 encoding: UTF-8
+
+# Enable 'future' posts?
+future: true
