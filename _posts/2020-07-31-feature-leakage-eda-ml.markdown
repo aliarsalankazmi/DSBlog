@@ -28,7 +28,7 @@ While there is some merit in the suggestion (especially due to the feature selec
 4. An ML model might be a quick way to try to inspect leakage, yet it _is_ a model afterall (and a blackbox one). In contrast to EDA or a Statistical test, it is an indirect method for inspection.  
 
 
-Nevertheless, I decided to use both **modelling** and **EDA** or a **Statistical test*. Results of these are shown in what follows[^1] (data have been re-generated from the same distribution as found in the original situation).  
+Nevertheless, I decided to use both **modelling** and **EDA** or a **Statistical test*. Results of these are shown in what follows[^1].  
 
 [^1]: data have been re-generated from the same distribution as found in the original situation  
 
