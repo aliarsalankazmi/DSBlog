@@ -8,8 +8,9 @@
 
                <description>Posts categorized as 'R'</description>
 
-            <link>{{ site.url }}</link>
-        <atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
+            <link>{{ site.url }}{{ site.baseurl }}/</link>
+        <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+        <!--- <atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" /> --->
 
             {% for post in site.categories.R %}
 
@@ -19,8 +20,10 @@
                     <description>{{ post.content | xml_escape }}</description>
                 {% endif %}
                 <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-                <link>{{ site.url }}{{ post.url }}</link>
-                <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+                <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+                <!--- <link>{{ site.url }}{{ post.url }}</link> ---> 
+                <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+                <!--- <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>  ---> 
             </item>
         {% endfor %}
     </channel>
