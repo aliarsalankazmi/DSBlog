@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bootstrap confidence intervals and confidence distritbutions - application X-men data using ggdist"
+title: "Bootstrap confidence intervals and confidence distritbutions - application on X-men data using ggdist"
 date: 2020-08-27
 categories: ["Posts", "R"]
 comments: true
