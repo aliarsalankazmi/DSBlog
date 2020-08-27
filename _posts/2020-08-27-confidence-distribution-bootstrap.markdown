@@ -7,24 +7,24 @@ comments: true
 ---
 
 
-#### Background  
+### Background  
 
 Back in June, Julia Silge [analysed the uncanny X-men](https://juliasilge.com/blog/uncanny-xmen/) comic book series. If, perchance, you are not familiar with her work, check out her [blog](https://juliasilge.com/blog) and [Youtube screencasts](https://juliasilge.com/category/tidymodels/) - invaluable resources for when I want to learn about any new `tidyverse` packages!    
 
 In her analyses of X-men comic series data from #tidytuesday, she proceeded to generate bootstrap confidence intervals for parameters of a logistic regression model. This is a very convenient way to show the variability in model parameters, but there is another package around --- `ggdist` --- that allows estimating and visualising **confidence distributions** around parameter estimates, in addition to several other visualisations such as the [eye plot](https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/1467-985X.00120) from the inimitable [David Spiegelhalter](https://twitter.com/d_spiegel).   
 
-#### But what is a confidence distribution?  
+### But what is a confidence distribution?  
 It is a distribution estimator, like the bootstrap, but is more general than it and subsumes it. It can be thought of as a (sample dependent) distribution for all levels of a parameter's confidence intervals, at different levels of probability. As such, it can be used, then, to also calculate confidence/compatibility intervals[^1], statistical power, p-values, etc.   
 
-[^1]: For reasons discussed in future, I prefer calling confidence intervals and distributions as compatibility intervals and distributions, following [advice of Sander Greenland](https://www.bmj.com/content/366/bmj.l5381).
+[^1]: For reasons I will discuss in future, I prefer calling confidence intervals and distributions as compatibility intervals and distributions, following [advice of Sander Greenland](https://www.bmj.com/content/366/bmj.l5381).
 
 I incline towards frequentism for most analytical problems, and the classic interpretation of confidence/compatibility distribution could pose a problem because under the frequentist view, parameters are fixed (while under Bayesian view, parameters are not fixed). In other words, previously a confidence distribution was interpreted as a distribution _of_ the parameter. The modern definition, as outlined in [this](https://www.stat.rutgers.edu/home/mxie/RCPapers/insr.12000.pdf) paper from Min-ge Xie and Kesar Singh, imposes certain requirements on the confidence distribution (to ensure adherence to frequentist properties), finally interpreting the distribution as an estimator _for_ the parameter. This also means that there can be different confidence distributions that may be good, bad, worse, or best fit for a parameter of interest.
 
-#### Connection to Bootstrap
+### Connection to Bootstrap
 Xie and Singh also note in the aforesaid paper that a bootstrap distribution is "often an (asymptotic) confidence distribution", and a CD random variable generated from a confidence/compatibility distribution is related to and has similar theoretical properties as a bootstrap estimator.  
 Let's regenerate Julia's models/visualisations and compare it with our confidence distribution.
 
-##### Bootstrapped parameter estimates
+#### Bootstrapped parameter estimates
 
 ```{r}
 extrafont::loadfonts(device = "win")
@@ -87,7 +87,7 @@ boot_coefs %>%
 
 
 
-##### Confidence/Compatibility distribution based parameter estimates
+#### Confidence/Compatibility distribution based parameter estimates
 
 ```{r}
 
