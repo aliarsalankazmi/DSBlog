@@ -25,6 +25,11 @@ While working on a project, I found that some tweaks were required to be able to
 
 
 ```
+
+# Load packages
+pkgs <- c("tidymodels", "stringr")
+sapply(pkgs, require, character.only = T)
+
 # Read in the data from #tidytuesday repo
 
 vb_matches <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-05-19/vb_matches.csv', guess_max = 76000)
@@ -71,8 +76,6 @@ vb_df <- bind_rows(winners, losers) %>%
   
 
 # Split data for training, testing (even though we only really need the training for our purpose)
-
-library(tidymodels)
 
 set.seed(123)
 vb_split <- initial_split(vb_df, strata = win)
@@ -245,8 +248,6 @@ So if we just rearrange our columns in training data in accordance with feature 
 
 
 ```
-
-data.table::setcolorder
 
 pdp::partial(
   xgb_spec$fit,
