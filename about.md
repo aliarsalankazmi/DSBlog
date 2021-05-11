@@ -5,17 +5,17 @@ permalink: /about/
 category: About
 ---
 
-# I am: 
 
-- a **Data Scientist**, working as an **Insights Analyst** in the Loyalty Analytics Industry;  
 
-- an (as yet, not fully realised) **Philosopher's** soul, in an increasingly **Unphilosophical** world 
+- I am a **Data Scientist**, working as a **data science lead** in the Consulting industry;  
 
-- a person with the temperament of an **Artist**, in a **Scientific** discipline;  
+- My career in analytics spans 7 years as of 2021, working primarily in **financial** and **telecommunication** industries;  
 
-- an **Autodidact** and a **Polyglot**
- 
-- an **Ascetic**, pursuing **Calisthenics**  
+- I like to use analytics to create theories, and then disprove them using data;  
+
+- My interests are rooted in reasoning - deductive and inductive - and this is how I came upon statistics and data science;  
+
+- I am also deeply interested in the intersection of analytics with governance and economics
 
 
 <br>
